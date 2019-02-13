@@ -1,0 +1,36 @@
+.square {
+  width:50px;
+  height:50px;
+  border: 1px solid black;
+  background: grey;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  
+}
+
+.x {
+  color: blue;
+
+}
+
+.o {
+  color: red;
+}
+
+.square:hover{
+  cursor:pointer;
+  background:yellow;
+}
+
+li{
+  list-style-type:none;
+}
+
+ul{
+  flex-wrap: wrap;
+  width: 156px;
+  display:flex;
+}
+

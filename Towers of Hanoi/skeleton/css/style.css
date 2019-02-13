@@ -1,0 +1,47 @@
+.towers {
+  display: flex;
+}
+
+.towers > li{
+  width: 200px;
+  padding: 20px;
+}
+
+.tower {
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 4px solid black;
+  height: 150px;
+}
+
+.selected{
+  border-bottom: 4px solid red;
+}
+
+.block {
+  height: 50px;
+  background-color: gray;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#block1{
+ width: 30%;
+}
+
+#block2{
+ width: 60%;
+}
+
+#block3{
+ width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul{
+  padding: 0;
+}
